@@ -1,7 +1,7 @@
 /// @nodoc
 library context_network;
 
-import 'package:connectivity/connectivity.dart'
+import 'package:connectivity_plus/connectivity_plus.dart'
     show Connectivity, ConnectivityResult;
 import 'package:sim_info/sim_info.dart' show SimInfo;
 

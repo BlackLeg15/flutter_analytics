@@ -2,7 +2,7 @@
 library context_device;
 
 import 'dart:io' show Platform;
-import 'package:device_info/device_info.dart' show DeviceInfoPlugin;
+import 'package:device_info_plus/device_info_plus.dart' show DeviceInfoPlugin;
 import '../debug/debug.dart' show Debug;
 
 /// @nodoc

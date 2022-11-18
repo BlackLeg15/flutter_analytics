@@ -1,7 +1,7 @@
 /// @nodoc
 library context_app;
 
-import 'package:package_info/package_info.dart' show PackageInfo;
+import 'package:package_info_plus/package_info_plus.dart' show PackageInfo;
 import '../debug/debug.dart' show Debug;
 
 /// @nodoc
