@@ -11,8 +11,8 @@ environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  connectivity_plus: ^2.3.9
-  device_info_plus: ^4.0.0
+  connectivity_plus: ^3.0.2
+  device_info_plus: ^8.0.0
   devicelocale: ^0.5.0
   flutter:
     sdk: flutter
@@ -21,7 +21,7 @@ dependencies:
   flutter_udid: ^2.0.0
   http: ^0.13.3
   location: ^4.1.1
-  package_info_plus: ^1.4.2
+  package_info_plus: ^3.0.2
   path_provider: ^2.0.2
   recase: ^4.0.0
   sim_info:

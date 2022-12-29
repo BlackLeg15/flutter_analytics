@@ -2,7 +2,9 @@
 library context_device;
 
 import 'dart:io' show Platform;
+
 import 'package:device_info_plus/device_info_plus.dart' show DeviceInfoPlugin;
+
 import '../debug/debug.dart' show Debug;
 
 /// @nodoc
@@ -20,7 +22,7 @@ Future<Map<String, dynamic>> _androidDevice() async {
   final androidInfo = await DeviceInfoPlugin().androidInfo;
 
   return <String, dynamic>{
-    'id': androidInfo.androidId,
+    'id': androidInfo.id,
     'manufacturer': androidInfo.manufacturer,
     'model': androidInfo.model,
     'name': 'n/a',

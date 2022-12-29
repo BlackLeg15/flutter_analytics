@@ -4,10 +4,8 @@ library test_app;
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-
 import 'package:flutter_analytics/flutter_analytics.dart';
 import 'package:flutter_analytics/version_control.dart';
-
 import 'package:flutter_driver/driver_extension.dart';
 
 import './.env.dart' show configUrl;
@@ -192,14 +190,14 @@ class _MyAppState extends State<_MyApp> with WidgetsBindingObserver {
 
   @override
   void dispose() {
-    WidgetsBinding.instance!.removeObserver(this);
+    WidgetsBinding.instance.removeObserver(this);
     super.dispose();
   }
 
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!.addObserver(this);
+    WidgetsBinding.instance.addObserver(this);
   }
 
   Widget bodyBuilder() {
